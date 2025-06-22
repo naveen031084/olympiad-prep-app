@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Olympiad Prep App</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="dashboard">
+  <div class="container">
+    <h1>Welcome, Anaya!</h1>
+
+    <div class="subject-buttons">
+      <button onclick="window.location.href='nso.html'">🔬 NSO</button>
+      <button onclick="window.location.href='imo.html'">🧮 IMO</button>
+      <button onclick="window.location.href='ieo.html'">📚 IEO</button>
+      <button onclick="window.location.href='igko.html'">🌍 IGKO</button>
+    </div>
+
+    <button class="daily-quiz" onclick="alert('Starting Daily Quiz...')">✨ Daily Quiz</button>
+
+    <div class="reward-section">
+      <p>🌟 Stars Earned: <span id="star-count">5</span></p>
+      <progress id="progress-bar" value="60" max="100"></progress>
+      <p>Progress: 60%</p>
+    </div>
+  </div>
+</body>
+</html>
