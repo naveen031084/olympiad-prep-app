@@ -1,0 +1,46 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f9f9ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.subject-buttons button {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffd700;
+}
+
+.daily-quiz {
+  background-color: #90ee90;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+}
+
+.reward-section {
+  margin-top: 2rem;
+}
+
+progress {
+  width: 80%;
+  height: 20px;
+}
+
+.question {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background-color: #fff9e6;
+}
